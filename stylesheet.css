@@ -1,0 +1,96 @@
+/* General */
+    @font-face { font-family: Welcome; src: url('Static/Fonts/Welcome.ttf'); }
+    *{
+        margin: 0 auto;
+        padding: 0;
+    }
+    a, a:link, a:visited, a:hover, a:focus, a:active{
+        text-decoration: none;
+        color: #fff;
+    }
+    pre, code, kbd, samp, tt{
+        font-family:monospace,monospace;
+        font-size:1em;
+    }
+    body{
+        background-color: #222;
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-size: calc(2vh + 0.5vw);
+    }
+    h1{
+        font-family: 'Welcome', sans-serif;
+        font-size: calc(6vh + 4vw);
+        text-align: center;
+    }
+    li{
+        list-style: none;
+    }
+
+    .decoration{
+        display: inline;
+        height: auto;
+        width: 80%;
+        padding: 3vw;
+    }
+    .left{
+        float: right;
+    }
+    .right{
+        float: left;
+    }
+
+    .section{
+        background-size: cover;
+        min-height: 100vh;
+        background-attachment: fixed;
+    }
+    .section_grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
+        padding: 5vw;
+    }
+    .section_item{
+        display: table;
+        height: 100%;
+        width: 100%;
+    }
+    .item_align{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+/* Sections */
+    .s1{
+        background-image: url("Static/Images/zen_01.png");
+        height: 100vh;
+        text-align: center;
+
+    }
+    .profile_picture{
+        border: 0.5vw solid #fff;
+        border-radius: 100%;
+        display: inline;
+        height: auto;
+        max-width: 20vw;
+        min-width: 25vh;
+    }
+    .signature{
+        font-size: calc(5vh + 8vw)
+    }
+
+    .s2{
+        background-image: url("Static/Images/zen_02.png");
+    }
+
+    .s3{
+        background-image: url("Static/Images/zen_03.png");
+    }
+
+    .s4{
+        background-image: url("Static/Images/zen_04.png");
+    }
+
+    .s5{
+        background-image: url("Static/Images/zen_04.png");
+    }
